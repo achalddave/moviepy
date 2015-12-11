@@ -210,7 +210,7 @@ def ffmpeg_read_image(filename, with_mask=True):
 def ffmpeg_parse_infos(filename, print_infos=False, check_duration=True):
     """Get file infos using ffmpeg.
 
-    Returns a dictionnary with the fields:
+    Returns a dictionary with the fields:
     "video_found", "video_fps", "duration", "video_nframes",
     "video_duration", "audio_found", "audio_fps"
 
